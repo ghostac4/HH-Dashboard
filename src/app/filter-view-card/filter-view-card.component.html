@@ -35,11 +35,11 @@
     </mat-form-field>
     <div>
       <label id="gender-label">Gender</label>
-      <mat-radio-group aria-labelledby="gender-label">
-        <mat-radio-button class="gender-radio-button" [value]="">
+      <mat-radio-group aria-labelledby="gender-label" [value]="'Male'">
+        <mat-radio-button class="gender-radio-button" value="Male">
           Male
         </mat-radio-button>
-        <mat-radio-button class="gender-radio-button" [value]="">
+        <mat-radio-button class="gender-radio-button" value="Female">
           Female
         </mat-radio-button>
       </mat-radio-group>
@@ -71,7 +71,7 @@
     <button mat-raised-button color="primary" style="height: 38px;margin-top: 10px;">Reset Filters</button>
   </div>
   <p class="result-text">8 Records Found</p>
-  <div fxLayout="row wrap">
-      <app-doctor-view-card *ngFor="let doctor of doctors"></app-doctor-view-card>
+  <div fxLayout="row wrap" fxLayoutAlign="start">
+    <app-doctor-view-card *ngFor="let doctor of doctors"></app-doctor-view-card>
   </div>
 </mat-card>

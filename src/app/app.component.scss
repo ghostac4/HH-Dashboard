@@ -6,6 +6,7 @@
   position: fixed;
   top: 0; /* Sets the sticky toolbar to be on top */
   z-index: 1000; /* Ensure that your app's content doesn't overlap the toolbar */
+  background: white;
 }
 
 .avatar{
@@ -16,4 +17,8 @@
     height: 35px;
     width: 35px;
     border-radius: 50%;
+}
+
+.button-selected{
+  color: #1fa4dd;
 }

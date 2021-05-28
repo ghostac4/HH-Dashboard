@@ -1,9 +1,15 @@
 <p>
-  <mat-toolbar class="app-toolbar" [class.mat-elevation-z8]=true>
-    <span>HomeHosp</span>
+  <mat-toolbar class="app-toolbar" [class.mat-elevation-z4]=true>
+    <span><img src="../assets/logo.png" style="width: 140px;height: 42px;"/></span>
     <span class="example-spacer"></span>
+    <button mat-button [ngClass]="{'button-selected':selected === 'Home'}">Home</button>
+    <button mat-button [ngClass]="{'button-selected':selected === 'My Appointments'}">My Appointments</button>
+    <button mat-button [ngClass]="{'button-selected':selected === 'Delegated Access'}">Delegated Access</button>
+    <button mat-button [ngClass]="{'button-selected':selected === 'Ads'}">Ads</button>
+    <button mat-button [ngClass]="{'button-selected':selected === 'Book Appointment'}">Book Appointment</button>
+
     <button mat-icon-button>
-      <mat-icon matBadge="3">notifications</mat-icon>
+      <mat-icon matBadge="3" matBadgeColor="warn">notifications</mat-icon>
     </button>
     <div class="avatar">
       <img class="avatar-img" src="../assets/dp1.jpg" />

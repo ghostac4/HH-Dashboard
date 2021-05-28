@@ -2,6 +2,47 @@
     height: 170px;
 }
 
+.avatar-img{
+    width: 48px !important;
+    height: 48px !important;
+    border-radius: 50% !important;
+}
+
+.card-details{
+    margin-left: 16px;
+}
+
+.card-detail-name{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333333;
+}
+
+.card-details-time{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #304156;
+
+    .card-details-date{
+        margin-left: 15px;
+        font-size: 13px;
+        font-weight: normal;
+        color: #98a0ab;
+    }
+}
+
 .upcoming-card-header-text{
     font-family: Roboto;
     font-size: 16px;

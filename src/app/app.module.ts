@@ -18,11 +18,13 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DashboardComponent } from './dashboard/dashboard.component';
 
+import {IvyCarouselModule} from 'angular-responsive-carousel';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { WelcomeCardComponent } from './welcome-card/welcome-card.component';
 import { UpcomingCardComponent } from './upcoming-card/upcoming-card.component';
 import { FilterViewCardComponent } from './filter-view-card/filter-view-card.component';
 import { DoctorViewCardComponent } from './doctor-view-card/doctor-view-card.component';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -36,6 +38,7 @@ import { DoctorViewCardComponent } from './doctor-view-card/doctor-view-card.com
   imports: [
     BrowserModule,
     AppRoutingModule,
+    CommonModule,
     BrowserAnimationsModule,
     FlexLayoutModule,
     MatToolbarModule,
@@ -49,7 +52,8 @@ import { DoctorViewCardComponent } from './doctor-view-card/doctor-view-card.com
     MatSelectModule,
     MatRadioModule,
     MatDividerModule,
-    MatGridListModule
+    MatGridListModule,
+    IvyCarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]

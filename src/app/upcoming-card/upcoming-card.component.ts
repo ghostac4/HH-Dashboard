@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UpcomingCardComponent implements OnInit {
 
+  list: any[] = [{},{}]
+
   constructor() { }
 
   ngOnInit(): void {

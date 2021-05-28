@@ -1,4 +1,4 @@
-<mat-card class="doctor-view-card">
+<mat-card class="doctor-view-card" [class.mat-elevation-z2]=true>
   <div fxLayout="row">
     <img class="avatar-img" src="../../assets/dp2.jpg" />
     <div class="view-header-container" fxLayout="column">
@@ -10,25 +10,25 @@
   <mat-grid-list cols="2" rowHeight="45px" class="data-grid">
     <mat-grid-tile>
       <div fxLayout="row" fxLayout="start center" fxFlex="100">
-        <mat-icon>add_location</mat-icon>
+        <mat-icon class="card-icon">add_location</mat-icon>
         <p class="grid-text">Oakland, California</p>
       </div>
     </mat-grid-tile>
     <mat-grid-tile>
       <div fxLayout="row" fxLayout="start center" fxFlex="100">
-        <mat-icon>corporate_fare</mat-icon>
+        <mat-icon class="card-icon">corporate_fare</mat-icon>
         <p class="grid-text">Morristown Medical Center</p>
       </div>
     </mat-grid-tile>
     <mat-grid-tile>
       <div fxLayout="row" fxLayout="start center" fxFlex="100">
-        <mat-icon>payment</mat-icon>
+        <mat-icon class="card-icon">payment</mat-icon>
         <p class="grid-text">Insurance</p>
       </div>
     </mat-grid-tile>
     <mat-grid-tile>
       <div fxLayout="row" fxLayout="start center" fxFlex="100">
-        <mat-icon>star</mat-icon>
+        <mat-icon class="card-icon">star</mat-icon>
         <p class="grid-text">Preferred Doctor</p>
       </div>
     </mat-grid-tile>
