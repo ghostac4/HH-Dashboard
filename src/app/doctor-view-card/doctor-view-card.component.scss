@@ -1,0 +1,65 @@
+.doctor-view-card{
+    width: 30%;
+    height: 180px;
+    min-width: 400px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.avatar-img{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.view-header-container{
+    margin-left: 18px;
+}
+
+.view-header-text-main{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #304156;
+}
+
+.view-header-text{
+    font-size: 14px;
+    font-weight: normal;
+    color: #98a0ab;
+}
+
+.view-header-subtext{
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2eb2ff;
+}
+
+.grid-text{
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #304156;
+    margin:0px;
+    margin-left: 7px;
+}
+
+.data-grid{
+    margin-top: 10px;
+}
